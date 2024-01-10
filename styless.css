@@ -1,0 +1,67 @@
+body {
+    background-color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black
+    
+}
+.container {
+
+    width: 700px;
+    margin: 16px auto; /* centers the layout */
+}
+
+.logo{
+
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+nav li{
+
+display: inline;
+
+}
+
+nav ul{
+
+  padding-left: 0%; 
+
+}
+
+nav a,  nav a:visited, nav a:active {
+
+    color: blue(55, 55, 55);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/* hover = mouse is on the element */
+nav a:hover {
+    
+    color: red;
+    text-decoration: underline;
+
+}
+img {
+
+    width: 400px;
+    height: auto;
+
+
+
+}
+
+footer {
+
+    background-color: rgb(55, 55, 55);
+    color: rgb(241, 241, 241);
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    /* padding: top right bottom left*/;
+    padding: 10px 10px 20px 10px ;
+}
+

@@ -1,0 +1,66 @@
+body {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    
+}
+.container {
+
+    width: 700px;
+    margin: 16px auto; /* centers the layout */
+}
+
+.logo{
+
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+nav li{
+
+display: inline;
+
+}
+
+nav ul{
+
+  padding-left: 0%; 
+
+}
+
+nav a,  nav a:visited, nav a:active {
+
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/* hover = mouse is on the element */
+nav a:hover {
+    
+    color: orange;
+    text-decoration: underline;
+
+}
+img {
+
+    width: 300px;
+    height: auto;
+
+
+
+}
+
+footer {
+
+    background-color: rgb(55, 55, 55);
+    color: rgb(241, 241, 241);
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    /* padding: top right bottom left*/;
+    padding: 12px 16px 24px 16px ;
+}
